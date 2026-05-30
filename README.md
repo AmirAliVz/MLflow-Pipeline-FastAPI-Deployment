@@ -14,12 +14,6 @@ Accepts flight scheduling inputs, encodes airport codes via `airport_encodings.j
 
 Health check — returns: `"Flight Delay Prediction API is running"`
 
-### Swagger UI
-
-| API Docs (/docs) |
-|---|
-| _placeholder_ |
-
 ---
 
 ## Unit Tests
@@ -35,7 +29,7 @@ Four test cases implemented with `pytest`:
 
 | pytest Output |
 |---|
-| _placeholder_ |
+| ![pytest](logs/pytest.png) |
 
 ---
 
@@ -84,17 +78,4 @@ project/
 └── README.md
 ```
 
----
 
-## Key Libraries
-
-| Library | Purpose |
-|---|---|
-| `mlflow` | Experiment tracking, pipeline orchestration |
-| `fastapi` | REST API framework |
-| `uvicorn` | ASGI server for FastAPI |
-| `pytest` | Unit testing |
-| `scikit-learn` | Ridge regression, polynomial features, pipeline |
-| `pandas` | Data manipulation |
-| `dvc` | Dataset versioning |
-| `docker` | Containerization |
