@@ -1,0 +1,54 @@
+2026-03-13 14:33:54,169 - INFO - ==================================================
+2026-03-13 14:33:54,169 - INFO -  MISSING VALUE SUMMARY (before formatting) 
+2026-03-13 14:33:54,169 - INFO - ==================================================
+2026-03-13 14:33:54,170 - INFO - --> Number of Missing Values per Column:
+2026-03-13 14:33:54,198 - INFO - 
+YEAR                0
+MONTH               0
+DAY_OF_MONTH        0
+DAY_OF_WEEK         0
+ORIGIN              0
+DEST                0
+CRS_DEP_TIME        0
+DEP_TIME        15886
+DEP_DELAY       15923
+CRS_ARR_TIME        0
+ARR_TIME        16580
+ARR_DELAY       17478
+dtype: int64
+2026-03-13 14:33:54,294 - INFO - 
+--> DataFrame size before dropping nulls: 539747 rows
+2026-03-13 14:33:54,350 - INFO - --> DataFrame size after dropping nulls: 522269 rows
+2026-03-13 14:33:54,363 - INFO - ==================================================
+2026-03-13 14:33:54,363 - INFO -  AFTER FORMATTING 
+2026-03-13 14:33:54,363 - INFO - ==================================================
+2026-03-13 14:33:54,363 - INFO - --> Shape: (522269, 12)
+2026-03-13 14:33:54,363 - INFO - --> Dtypes:
+YEAR                    int32
+MONTH                   int32
+DAY                     int32
+DAY_OF_WEEK             int32
+ORG_AIRPORT            object
+DEST_AIRPORT           object
+SCHEDULED_DEPARTURE     int32
+DEPARTURE_TIME          int32
+DEPARTURE_DELAY         int32
+SCHEDULED_ARRIVAL       int32
+ARRIVAL_TIME            int32
+ARRIVAL_DELAY           int32
+dtype: object
+2026-03-13 14:33:54,387 - INFO - --> Missing per column:
+YEAR                   0
+MONTH                  0
+DAY                    0
+DAY_OF_WEEK            0
+ORG_AIRPORT            0
+DEST_AIRPORT           0
+SCHEDULED_DEPARTURE    0
+DEPARTURE_TIME         0
+DEPARTURE_DELAY        0
+SCHEDULED_ARRIVAL      0
+ARRIVAL_TIME           0
+ARRIVAL_DELAY          0
+dtype: int64
+2026-03-13 14:33:55,243 - INFO - --> Saved: formatted_data.csv

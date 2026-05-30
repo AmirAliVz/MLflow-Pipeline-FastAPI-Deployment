@@ -1,0 +1,40 @@
+14:34:00 INFO Flight Departure Delays Polynomial Regression Model Log
+14:34:00 INFO Month and year of data: 1 2025
+14:34:01 INFO Airport one-hot encoding successful
+14:34:02 DEBUG Popen(['git', 'version'], cwd=E:\Uni\WGU\Deployment - D602\Task 2\d602-deployment-task-2, stdin=None, shell=False, universal_newlines=False)
+14:34:02 DEBUG Popen(['git', 'version'], cwd=E:\Uni\WGU\Deployment - D602\Task 2\d602-deployment-task-2, stdin=None, shell=False, universal_newlines=False)
+14:34:02 DEBUG sys.platform='win32', git_executable='git'
+14:34:02 DEBUG Popen(['git', 'check-ignore', 'E:\\Uni\\WGU\\Deployment - D602\\Task 2\\d602-deployment-task-2'], cwd=E:\Uni\WGU\Deployment - D602\Task 2\d602-deployment-task-2, stdin=None, shell=False, universal_newlines=False)
+14:34:02 DEBUG Popen(['git', 'cat-file', '--batch-check'], cwd=E:\Uni\WGU\Deployment - D602\Task 2\d602-deployment-task-2, stdin=<valid stream>, shell=False, universal_newlines=False)
+14:34:03 DEBUG Starting new HTTPS connection (1): config.mlflow-telemetry.io:443
+14:34:03 INFO n=1 alpha=0.0 , MSE = 9.9208e+28
+14:34:03 INFO n=1 alpha=0.2 , MSE = 100.29
+14:34:03 INFO n=1 alpha=0.4 , MSE = 99.981
+14:34:03 DEBUG https://config.mlflow-telemetry.io:443 "GET /3.10.0.json HTTP/1.1" 200 308
+14:34:03 INFO n=1 alpha=0.6 , MSE = 99.733
+14:34:03 INFO n=1 alpha=0.8 , MSE = 99.527
+14:34:03 INFO n=1 alpha=1.0 , MSE = 99.351
+14:34:03 INFO n=1 alpha=1.2 , MSE = 99.198
+14:34:03 INFO n=1 alpha=1.4 , MSE = 99.063
+14:34:03 INFO n=1 alpha=1.6 , MSE = 98.942
+14:34:03 INFO n=1 alpha=1.8 , MSE = 98.833
+14:34:03 INFO n=1 alpha=2.0 , MSE = 98.734
+14:34:03 INFO n=1 alpha=2.2 , MSE = 98.644
+14:34:03 INFO n=1 alpha=2.4 , MSE = 98.562
+14:34:03 INFO n=1 alpha=2.6 , MSE = 98.487
+14:34:03 INFO n=1 alpha=2.8 , MSE = 98.418
+14:34:03 INFO n=1 alpha=3.0 , MSE = 98.354
+14:34:03 INFO n=1 alpha=3.2 , MSE = 98.295
+14:34:03 INFO n=1 alpha=3.4 , MSE = 98.241
+14:34:03 INFO n=1 alpha=3.6 , MSE = 98.191
+14:34:03 INFO n=1 alpha=3.8 , MSE = 98.144
+14:34:03 INFO Training Data Final MSE = 98.14
+14:34:03 INFO Model training loop completed with 20 iterations
+14:34:03 INFO Export of airport one-hot encoding successful
+14:34:03 INFO Wrangling of test data successful
+14:34:03 INFO Test Data MSE = 78.5
+14:34:03 INFO Predictions using test data successful
+14:34:03 INFO Test Data average delay = 7.00 min
+14:34:03 INFO Final model export successful
+14:34:03 DEBUG Loaded backend qtagg version 5.15.11.
+14:34:04 INFO Model performance plot export successful

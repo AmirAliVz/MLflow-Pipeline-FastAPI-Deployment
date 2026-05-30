@@ -1,0 +1,53 @@
+2026-03-13 14:33:56,067 - INFO - ==================================================
+2026-03-13 14:33:56,067 - INFO -  BEFORE CLEANING 
+2026-03-13 14:33:56,067 - INFO - ==================================================
+2026-03-13 14:33:56,067 - INFO - --> Shape: (522269, 12)
+2026-03-13 14:33:56,091 - INFO - --> Missing per column:
+YEAR                   0
+MONTH                  0
+DAY                    0
+DAY_OF_WEEK            0
+ORG_AIRPORT            0
+DEST_AIRPORT           0
+SCHEDULED_DEPARTURE    0
+DEPARTURE_TIME         0
+DEPARTURE_DELAY        0
+SCHEDULED_ARRIVAL      0
+ARRIVAL_TIME           0
+ARRIVAL_DELAY          0
+dtype: int64
+2026-03-13 14:33:56,091 - INFO - --> Columns: ['YEAR', 'MONTH', 'DAY', 'DAY_OF_WEEK', 'ORG_AIRPORT', 'DEST_AIRPORT', 'SCHEDULED_DEPARTURE', 'DEPARTURE_TIME', 'DEPARTURE_DELAY', 'SCHEDULED_ARRIVAL', 'ARRIVAL_TIME', 'ARRIVAL_DELAY']
+2026-03-13 14:33:56,120 - INFO - 
+==================================================
+2026-03-13 14:33:56,120 - INFO -  AFTER CLEANING 
+2026-03-13 14:33:56,120 - INFO - ==================================================
+2026-03-13 14:33:56,120 - INFO - --> Shape: (8163, 12)
+2026-03-13 14:33:56,120 - INFO - --> Dtypes:
+YEAR                    int64
+MONTH                   int64
+DAY                     int64
+DAY_OF_WEEK             int64
+ORG_AIRPORT            object
+DEST_AIRPORT           object
+SCHEDULED_DEPARTURE     int64
+DEPARTURE_TIME          int64
+DEPARTURE_DELAY         int64
+SCHEDULED_ARRIVAL       int64
+ARRIVAL_TIME            int64
+ARRIVAL_DELAY           int64
+dtype: object
+2026-03-13 14:33:56,121 - INFO - --> Missing per column:
+YEAR                   0
+MONTH                  0
+DAY                    0
+DAY_OF_WEEK            0
+ORG_AIRPORT            0
+DEST_AIRPORT           0
+SCHEDULED_DEPARTURE    0
+DEPARTURE_TIME         0
+DEPARTURE_DELAY        0
+SCHEDULED_ARRIVAL      0
+ARRIVAL_TIME           0
+ARRIVAL_DELAY          0
+dtype: int64
+2026-03-13 14:33:56,136 - INFO - --> Saved: cleaned_data.csv
